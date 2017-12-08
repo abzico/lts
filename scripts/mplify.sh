@@ -4,7 +4,7 @@
 # (optional) 1st parameter is target path to save .wxs file (with prefixed directory namely lts/)
 # 	if it's not supplied, then it will base on current directory
 
-DIRNAME='lts'
+DIRNAME='ltsx'
 DEST_PATH='./'$DIRNAME
 
 if [ "$1" != "" ] && [ ! -z "$1" ]; then
