@@ -1,7 +1,7 @@
 const langs = require('./const-lang.js');
-const lts = require('./lts.js');
+const ltsx = require('./ltsx.js');
 
 module.exports = {
-	lts: lts,
+	ltsx: ltsx,
 	langs: langs
 }
