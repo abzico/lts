@@ -17,8 +17,8 @@ mkdir -p $DEST_PATH
 # copy const-lang.js to be const-lang.wxs at destination path
 cp -p const-lang.js $DEST_PATH/const-lang.wxs
 # copy and parse ltsx.js to include pre-defined definitions then save it as lts.wxs at destination path
-cp -p ltsx.js $DEST_PATH/ltsx.wsx
-sed -i '' -E "s/var defs = {};/var preDefs = require('.\/defs.wxs');var defs = preDefs;/g" $DEST_PATH/ltsx.wsx
+cp -p ltsx.js $DEST_PATH/ltsx.wxs
+sed -i '' -E "s/var defs = {};/var preDefs = require('.\/defs.wxs');var defs = preDefs;/g" $DEST_PATH/ltsx.wxs
 
 # copy index.js to be index.wxs at destination path
 cp -p index.js $DEST_PATH/index.wxs
