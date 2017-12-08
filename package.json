@@ -1,6 +1,6 @@
 {
   "name": "ltsx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Localization module (marked with WeChat's mini-program supported)",
   "main": "index.js",
   "scripts": {
