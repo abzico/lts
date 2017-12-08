@@ -1,0 +1,32 @@
+{
+  "name": "lts",
+  "version": "1.0.0",
+  "description": "Localization module (marked with WeChat's mini-program supported)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node tests",
+    "wechat-mp": "bash scripts/mplify.sh",
+    "doc": "jsdoc README.md const-lang.js lts.js index.js -d ./docs",
+    "publish-doc": "ghp-import -m 'Deployed with ghp-import' -p ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abzico/lts.git"
+  },
+  "keywords": [
+    "lts",
+    "localized",
+    "localization",
+    "locale"
+  ],
+  "author": "Wasin Thonkaew, abzi.co",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/abzico/lts/issues"
+  },
+  "homepage": "https://github.com/abzico/lts#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "jsdoc": "^3.5.5"
+  }
+}
