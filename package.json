@@ -1,12 +1,12 @@
 {
   "name": "ltsx",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Localization module (marked with WeChat's mini-program supported)",
   "main": "index.js",
   "scripts": {
     "test": "jasmine-node tests",
     "wechat-mp": "bash scripts/mplify.sh",
-    "doc": "jsdoc README.md const-lang.js lts.js index.js -d ./docs",
+    "doc": "jsdoc README.md const-lang.js ltsx.js index.js -d ./docs",
     "publish-doc": "npm run doc && ghp-import -m 'Deployed with ghp-import' -p ./docs"
   },
   "repository": {
