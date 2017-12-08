@@ -17,7 +17,7 @@ mkdir -p $DEST_PATH
 # copy const-lang.js to be const-lang.wxs at destination path
 cp -p const-lang.js $DEST_PATH/const-lang.wxs
 # copy lts.js to be lts.wxs at destination path
-cp -p lts.js $DEST_PATH/lts.wxs
+cp -p ltsx.js $DEST_PATH/ltsx.wxs
 # copy index.js to be index.wxs at destination path
 cp -p index.js $DEST_PATH/index.wxs
 # copy defs-template.js to be defs.wxs at destination path
