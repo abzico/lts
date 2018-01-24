@@ -20,9 +20,8 @@ cp -p const-lang.js $DEST_PATH/const-lang.wxs
 cp -p ltsx.js $DEST_PATH/ltsx.wxs
 sed -i '' -E "s/var defs = {};/var preDefs = require('.\/defs.wxs');var defs = preDefs;/g" $DEST_PATH/ltsx.wxs
 
-# copy index.js to be index.wxs at destination path
-cp -p index.js $DEST_PATH/index.wxs
 # copy defs-template.js to be defs.wxs at destination path
 cp -p mp/defs-template.js $DEST_PATH/defs.wxs
+# (we don't need index.js to be copied, it is only used for nodejs code)
 
 echo 'done'
